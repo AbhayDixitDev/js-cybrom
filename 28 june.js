@@ -1,15 +1,15 @@
 function sub(){
-    let name=document.getElementById('name').value;
-    let photo=document.getElementById('photo').value;
-    let email=document.getElementById('email').value;
-    let contact=document.getElementById('contact').value;
-    let github=document.getElementById('github').value;
-    let linkedin=document.getElementById('linkedin').value;
-    let profession=document.getElementById('profession').value;
-    let skills=document.getElementById('skills').value;
-    let high=document.getElementById('high').value;
-    let college=document.getElementById('college').value;
-    let year=document.getElementById('year').value;
+    let name=document.querySelector('#name').value;
+    let photo=document.querySelector('#photo').value;
+    let email=document.querySelector('#email').value;
+    let contact=document.querySelector('#contact').value;
+    let github=document.querySelector('#github').value;
+    let linkedin=document.querySelector('#linkedin').value;
+    let profession=document.querySelector('#profession').value;
+    let skills=document.querySelector('#skills').value;
+    let high=document.querySelector('#high').value;
+    let college=document.querySelector('#college').value;
+    let year=document.querySelector('#year').value;
 
     let card=`<section id="card" >
         <center>
@@ -62,8 +62,9 @@ function sub(){
 
     </section>`;
 
-    let store=document.getElementById('output');
+    let store=document.querySelector('#output');
     store.innerHTML=card;
+    window.print(card)
 
     // console.log(name,profession,photo,email,contact,github,linkedin,skills,high,college,year)
     return false;
