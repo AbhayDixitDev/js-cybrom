@@ -23,6 +23,10 @@ function sub(){
         window.alert("Please Enter Your Email");
         return false;
     }
+    else if(!(email.includes('@gmail.com') || email.includes('@outlook.com') || email.includes('@yahoo.com'))){
+        window.alert("Please Enter Your Email Carefully, email should include @yahoo.com or @gmail.com or @outlook.com");
+        return false;
+    }
     else  if(contact===""){
         window.alert("Please Enter Your Contact Number");
         return false;
