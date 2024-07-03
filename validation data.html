@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #form{
+            display: block;
+            border: 2px solid black;
+            width: 32%;
+            justify-self: center;
+            margin:auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+    
+
+        }
+        #form input{
+            display: block;
+            width: 500px;
+            margin: 20px;
+            padding: 20px;
+        }
+        #form  #hr{
+            height: 2px;
+            width: 100%;
+            background-color: black;
+        }
+
+        #card{
+            width:800px;
+            box-shadow: 0px 0px 40px black;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        #card #d1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #card #d1 div img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+        #hr{
+            height: 2px;
+            width: 100%;
+            background-color: black;
+        }
+        button{
+            display: block;
+            justify-self: center;
+            background-color: orange;
+            font-size: 24px;
+            margin: auto;
+            width: 300px;
+            padding: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        #output{
+            height: 1200;
+            width: 300px;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <form  id="form" >
+        <input type="text" placeholder="Enter Name" id="name">
+        <input type="text" placeholder="Enter Your Profession" id="profession">
+        <input type="text" placeholder="Enter Your Profile Picture Url" id="photo">
+        <div id="hr">
+            
+        </div>
+        <input type="text" placeholder="Enter Your Email Address" id="email">
+        <input type="text" placeholder="Enter Your Phone Number" id="contact">
+        <input type="text" placeholder="Enter Your Github Profile url" id="github">
+        <input type="text" placeholder="Enter Your Linkedin Profile Url" id="linkedin">
+        <div id="hr">
+            
+        </div>
+        <input type="text" placeholder="Enter Your Skills Seperate With Comma" id="skills">
+        <div id="hr">
+            
+        </div>
+        <input type="text" placeholder="Enter Highest Qualification" id="high">
+        <input type="text" placeholder="Enter College Name" id="college">
+        <input type="text" placeholder="Enter Highest Qualification Passout Year" id="year">
+
+        <button onclick="return sub()">Generate Resume</button>
+    </form>
+    <div id="output">
+         
+    </div>
+     
+    <script src="./validation data.js"></script>
+</body>
+</html>

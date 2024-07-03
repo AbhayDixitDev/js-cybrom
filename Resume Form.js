@@ -11,54 +11,54 @@ function sub(){
     let college=document.querySelector('#college').value;
     let year=document.querySelector('#year').value;
 
-       if(name===""){
-        window.alert("Please Enter Your Name");
-        return false;
-    }
-    else if(photo===""){
-        window.alert("Please Enter Your Photo Url");
-        return false;
-    }
-    else  if(email===""){
-        window.alert("Please Enter Your Email");
-        return false;
-    }
-    else if(!(email.includes('@gmail.com') || email.includes('@outlook.com') || email.includes('@yahoo.com'))){
-        window.alert("Please Enter Your Email Carefully, email should include @yahoo.com or @gmail.com or @outlook.com");
-        return false;
-    }
-    else  if(contact===""){
-        window.alert("Please Enter Your Contact Number");
-        return false;
-    }
-    else  if(github===""){
-        window.alert("Please Enter Your github url");
-        return false;
-    }
-    else  if(linkedin===""){
-        window.alert("Please Enter Your linked url");
-        return false;
-    }
-    else  if(profession===""){
-        window.alert("Please Enter Your Profession");
-        return false;
-    }
-    else if(skills===""){
-        window.alert("Please Enter Your Skills");
-        return false;
-    }
-    else  if(high===""){
-        window.alert("Please Enter Your Highest Qualification");
-        return false;
-    }
-    else  if(college===""){
-        window.alert("Please Enter Your College Name");
-        return false;
-    }
-    else  if(year===""){
-        window.alert("Please Enter Passout Year");
-        return false;
-    }
+    //    if(name===""){
+    //     window.alert("Please Enter Your Name");
+    //     return false;
+    // }
+    // else if(photo===""){
+    //     window.alert("Please Enter Your Photo Url");
+    //     return false;
+    // }
+    // else  if(email===""){
+    //     window.alert("Please Enter Your Email");
+    //     return false;
+    // }
+    // else if(!(email.includes('@gmail.com') || email.includes('@outlook.com') || email.includes('@yahoo.com'))){
+    //     window.alert("Please Enter Your Email Carefully, email should include @yahoo.com or @gmail.com or @outlook.com");
+    //     return false;
+    // }
+    // else  if(contact===""){
+    //     window.alert("Please Enter Your Contact Number");
+    //     return false;
+    // }
+    // else  if(github===""){
+    //     window.alert("Please Enter Your github url");
+    //     return false;
+    // }
+    // else  if(linkedin===""){
+    //     window.alert("Please Enter Your linked url");
+    //     return false;
+    // }
+    // else  if(profession===""){
+    //     window.alert("Please Enter Your Profession");
+    //     return false;
+    // }
+    // else if(skills===""){
+    //     window.alert("Please Enter Your Skills");
+    //     return false;
+    // }
+    // else  if(high===""){
+    //     window.alert("Please Enter Your Highest Qualification");
+    //     return false;
+    // }
+    // else  if(college===""){
+    //     window.alert("Please Enter Your College Name");
+    //     return false;
+    // }
+    // else  if(year===""){
+    //     window.alert("Please Enter Passout Year");
+    //     return false;
+    // }
 
     let card=`<section id="card" >
         <center>
@@ -113,9 +113,9 @@ function sub(){
 
     let store=document.querySelector('#output');
     store.innerHTML=card;
-    // window.print(card)
+    window.print(card)
 
     // console.log(name,profession,photo,email,contact,github,linkedin,skills,high,college,year)
  
-    // return false;
+    return false;
 }
