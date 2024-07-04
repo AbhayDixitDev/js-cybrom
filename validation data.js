@@ -10,6 +10,8 @@ function sub(){
     let high=document.querySelector('#high').value;
     let college=document.querySelector('#college').value;
     let year=document.querySelector('#year').value;
+    let pass=document.querySelector('#pass').value;
+    let cpass=document.querySelector('#cpass').value;
 
     if(name===""){
         window.alert("Please Enter Your Name");
@@ -92,14 +94,39 @@ function sub(){
         document.querySelector('#year').focus();
         return false;
     }
+    else  if(pass===""){
+        window.alert("Please Enter Your Password");
+        document.querySelector('#pass').focus();
+        return false;
+    }
+    else if(!pass.match('[/!@#$%^&*()_+<>?/]')){
+        window.alert("not a strong password, it should contain special character");
+        return false;
+    }
+    else if(!pass.match('[/1234567890/]')){
+        window.alert("not a strong password, it should contain numeric characters");
+        return false;
+    }
+    else if(!pass.match('[/qwertyuiopasdfghjklmnbvcxz/]')){
+        window.alert("not a strong password, it should contain lower character");
+        return false;
+    }
+    else if(!pass.match('[/QWERTYUIOPASDFGHJKLZXCVBNM/]')){
+        window.alert("not a strong password, it should contain special character");
+        return false;
+    }
+    else if(pass.length<8){
+        window.alert("password length should be 8 or greater than 8");
+        return false;
+    }
 
-    // else if(pass !== cpass){
-    //     window.alert("Password and Confirm Password Should be same");
-    //     document.querySelector('#pass').value="";
-    //     document.querySelector('#cpass').value="";
-    //     document.querySelector('#pass').focus();
-    //     return false;
-    // }
+    else if(pass !== cpass){
+        window.alert("Password and Confirm Password Should be same");
+        document.querySelector('#pass').value="";
+        document.querySelector('#cpass').value="";
+        document.querySelector('#pass').focus();
+        return false;
+    }
 
     let card=`<section id="card" >
         <center>
@@ -154,7 +181,7 @@ function sub(){
 
     let store=document.querySelector('#output');
     store.innerHTML=card;
-    // window.print(card)
+    window.print(card)
 
     // console.log(name,profession,photo,email,contact,github,linkedin,skills,high,college,year)
  

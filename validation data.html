@@ -9,7 +9,6 @@
         #form{
             display: block;
             border: 2px solid black;
-            width: 32%;
             justify-self: center;
             margin:auto;
             margin-top: 50px;
@@ -63,39 +62,41 @@
         }
         #output{
             height: 1200;
-            width: 300px;
+            width: 800px;
         }
     </style>
     
 </head>
 <body>
     
-    <form  id="form" >
-        <input type="text" placeholder="Enter Name" id="name">
-        <input type="text" placeholder="Enter Your Profession" id="profession">
-        <input type="text" placeholder="Enter Your Profile Picture Url" id="photo">
-        <div id="hr">
-            
-        </div>
-        <input type="text" placeholder="Enter Your Email Address" id="email">
-        <input type="text" placeholder="Enter Your Phone Number" id="contact">
-        <input type="text" placeholder="Enter Your Github Profile url" id="github">
-        <input type="text" placeholder="Enter Your Linkedin Profile Url" id="linkedin">
-        <div id="hr">
-            
-        </div>
-        <input type="text" placeholder="Enter Your Skills Seperate With Comma" id="skills">
-        <div id="hr">
-            
-        </div>
-        <input type="text" placeholder="Enter Highest Qualification" id="high">
-        <input type="text" placeholder="Enter College Name" id="college">
-        <input type="text" placeholder="Enter Highest Qualification Passout Year" id="year">
-
-        <button onclick="return sub()">Generate Resume</button>
-    </form>
+    
     <div id="output">
-         
+        <form  id="form" >
+            <input type="text" placeholder="Enter Name" id="name">
+            <input type="text" placeholder="Enter Your Profession" id="profession">
+            <input type="text" placeholder="Enter Your Profile Picture Url" id="photo">
+            <div id="hr">
+                
+            </div>
+            <input type="text" placeholder="Enter Your Email Address" id="email">
+            <input type="text" placeholder="Enter Your Phone Number" id="contact">
+            <input type="text" placeholder="Enter Your Github Profile url" id="github">
+            <input type="text" placeholder="Enter Your Linkedin Profile Url" id="linkedin">
+            <div id="hr">
+                
+            </div>
+            <input type="text" placeholder="Enter Your Skills Seperate With Comma" id="skills">
+            <div id="hr">
+                
+            </div>
+            <input type="text" placeholder="Enter Highest Qualification" id="high">
+            <input type="text" placeholder="Enter College Name" id="college">
+            <input type="text" placeholder="Enter Highest Qualification Passout Year" id="year">
+            <input type="text" placeholder="Enter Password" id="pass">
+            <input type="text" placeholder="Enter Password Again" id="cpass">
+    
+            <button onclick="return sub()">Generate Resume</button>
+        </form>
     </div>
      
     <script src="./validation data.js"></script>
