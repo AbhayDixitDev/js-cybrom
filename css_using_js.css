@@ -1,0 +1,11 @@
+#d1{
+    background-color: red;
+    width:400px;
+    height: 400px;
+}
+#d2{
+    width:400px;
+    height:400px;
+    background-image: url('https://yespunjab.com/wp-content/uploads/2024/07/actor-Abhay-Verma.jpg');
+    background-size: cover;
+}

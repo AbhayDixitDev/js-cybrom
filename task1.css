@@ -1,0 +1,66 @@
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 95vh;
+}
+#main-1{
+    width: 20%;
+    height: 95vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#main-1 div{
+    margin: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 100px;
+ height: 100px;
+ border: 1px solid skyblue;
+
+}
+#main-1 div:hover{
+    border: 1px solid black;
+    transition: all 0.1s;
+    background-color: rgb(185, 212, 214);
+}
+
+#photo1 img{
+    scale: 0.7;
+}
+
+#photo2 img{
+    scale: 0.7;
+}
+#photo3 img{
+    scale: 0.7;
+}
+#photo4 img{
+    scale: 0.7;
+}
+#photo5 img{
+    scale: 0.7;
+}
+#photo6 img{
+    scale: 0.7;
+}
+#photo7 img{
+    scale: 0.7;
+}
+
+
+
+#main-2{
+    margin: 10px;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    background-image: url(https://rukminim2.flixcart.com/image/128/128/jdhp47k0/mobile/e/h/e/redmi-note-5-pro-na-original-imaf2ashnnbxxks5.jpeg?q=70&crop=false);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
