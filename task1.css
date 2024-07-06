@@ -21,6 +21,8 @@
  width: 100px;
  height: 100px;
  border: 1px solid skyblue;
+ background-size: 100px 100px;
+ 
 
 }
 #main-1 div:hover{
@@ -29,27 +31,45 @@
     background-color: rgb(185, 212, 214);
 }
 
-#photo1 img{
-    scale: 0.7;
+#photo1  {
+      background-image:url(https://rukminim2.flixcart.com/image/128/128/jdhp47k0/mobile/e/h/e/redmi-note-5-pro-na-original-imaf2ashnnbxxks5.jpeg?q=70&crop=false) ;
+      
 }
 
-#photo2 img{
-    scale: 0.7;
+#photo2  {
+    background-image:url(https://rukminim2.flixcart.com/image/128/128/jrjizrk0/mobile/x/8/3/mi-redmi-note-5-pro-mzb6079in-mzb6087in-original-imafdb6zy2b4hvss.jpeg?q=70&crop=false) ;
+      background-repeat: no-repeat;
+      background-position: center;
 }
-#photo3 img{
-    scale: 0.7;
+#photo3  {
+    background-image:url(https://rukminim2.flixcart.com/image/128/128/jdhp47k0/mobile/e/h/e/redmi-note-5-pro-na-original-imaf2ashuwmatzkp.jpeg?q=70&crop=false) ;
+    background-repeat: no-repeat;
+    background-position: center;
+      
 }
-#photo4 img{
-    scale: 0.7;
+#photo4  {
+    background-image:url(https://rukminim2.flixcart.com/image/128/128/jdhp47k0/mobile/e/h/e/redmi-note-5-pro-na-original-imaf2ashhyprwwrf.jpeg?q=70&crop=false) ;
+    background-repeat: no-repeat;
+    background-position: center;
+      
 }
-#photo5 img{
-    scale: 0.7;
+#photo5  {
+    background-image:url(https://rukminim2.flixcart.com/image/128/128/jddesnk0/mobile/e/h/e/redmi-e7s-note-5-pro-na-original-imaf2ashgckkfqxx.jpeg?q=70&crop=false) ;
+    background-repeat: no-repeat;
+    background-position: center;
+      
 }
-#photo6 img{
-    scale: 0.7;
+#photo6  {
+    background-image:url(https://rukminim2.flixcart.com/image/128/128/jdhp47k0/mobile/x/8/3/redmi-note-5-pro-na-original-imaf2asgzugtjaft.jpeg?q=70&crop=false) ;
+    background-repeat: no-repeat;
+    background-position: center;
+      
 }
-#photo7 img{
-    scale: 0.7;
+#photo7  {
+    background-image:url(https://rukminim2.flixcart.com/image/128/128/jddesnk0/mobile/x/8/3/redmi-e7s-note-5-pro-na-original-imaf2asknu5jsyc6.jpeg?q=70&crop=false) ;
+    background-repeat: no-repeat;
+    background-position: center;
+      
 }
 
 
