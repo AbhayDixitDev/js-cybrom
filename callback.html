@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #card{
+            width: 400px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 40px black;
+            left: 75%;
+            top: 2%;
+            position: absolute;
+            z-index: 10;
+            background-color: red;
+        }
+        #output{
+            left: 75%;
+            top: 2%;
+            z-index: 11;
+
+            position: absolute;
+        }
+        
+        #output i{
+            /*left: 75%;
+            top: 2%;
+            z-index: 11;*/
+
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+      
+    </style>
+</head>
+<body>
+    <div id="output"> <i onclick="close1()" class="fa-solid fa-xmark"></i></div>
+   
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam animi soluta nulla, deserunt amet a ducimus libero quisquam nam esse provident quis sequi quae unde quaerat sunt aspernatur perspiciatis! Quas!</h1>
+    
+    
+    <script src="./callback.js"></script>
+</body>
+</html>
