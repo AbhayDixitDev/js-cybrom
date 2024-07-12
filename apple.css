@@ -23,18 +23,22 @@ body{
 #menu{
     background-color: black;
     color: white;
+    animation: all ease-in-out;
+
 }
 #menu-1{
+    height: 50vh;
     display: flex;
-    padding: 100px;
+    padding-top: 60px;
     padding-left: 200px;
     div{
         padding-left: 100px;
     }
 }
 #menu-1-1{
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     div{
         padding: 5px;
@@ -57,7 +61,7 @@ body{
     }
 }
 #head{
-    color: rgb(109, 85, 85);
+    color: rgb(191, 181, 181);
     font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 600;
