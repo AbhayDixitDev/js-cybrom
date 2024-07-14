@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .login-container{
+        display: block;
+        width: 400px;
+        justify-content: center;
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        border: 1px solid red;
+       }
+    </style>
+</head>
+<body onload="show()">
+    <div class="login-container">
+        <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+<br>
+            <label for="password">Password:</label>
+            <input type="text" name="password" id="password"required>
+            <br>
+         <div style="display: flex;">
+            <div id="cap" style="width: 80px;border:1px solid black;height:20px;margin-right:50px;"></div>
+            <input id="captcha" style="width: 80px;border:1px solid black;height:20px;margin-right:50px;" type="text">
+            <button onclick="refresh()">Refresh</button>
+         </div>
+            <button onclick="submit()">Login</button>
+       
+    </div>
+    <script src="./random captcha generator.js"></script>
+</body>
+</html>
