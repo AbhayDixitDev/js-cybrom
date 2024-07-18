@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            width: 300px;
+            float: right;
+            margin-right: 50px;
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 10px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+          }
+          
+          .grid-box {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+          }
+          
+          .grid-box:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-box" id="grid1" style="background-color: #FF69B4;" onmouseenter="colorchange(1)"></div>
+        <div class="grid-box" id="grid2" style="background-color: #33CC33;" onmouseenter="colorchange(2)"></div>
+        <div class="grid-box" id="grid3" style="background-color: #6666FF;" onmouseenter="colorchange(3)"></div>
+        <div class="grid-box" id="grid4" style="background-color: #FFCC00;" onmouseenter="colorchange(4)"></div>
+        <div class="grid-box" id="grid5" style="background-color: #0099CC;" onmouseenter="colorchange(5)"></div>
+        <div class="grid-box" id="grid6" style="background-color: #FF99CC;" onmouseenter="colorchange(6)"></div>
+        <div class="grid-box" id="grid7" style="background-color: #33FFFF;" onmouseenter="colorchange(7)"></div>
+        <div class="grid-box" id="grid8" style="background-color: #666600;" onmouseenter="colorchange(8)"></div>
+        <div class="grid-box" id="grid9" style="background-color: #CC0099;" onmouseenter="colorchange(9)"></div>
+        <div class="grid-box" id="grid10" style="background-color: #0033CC;" onmouseenter="colorchange(10)"></div>
+        <div class="grid-box" id="grid11" style="background-color: #FF6600;" onmouseenter="colorchange(11)"></div>
+        <div class="grid-box" id="grid12" style="background-color: #33CC00;" onmouseenter="colorchange(12)"></div>
+        <div class="grid-box" id="grid13" style="background-color: #6666CC;" onmouseenter="colorchange(13)"></div>
+        <div class="grid-box" id="grid14" style="background-color: #FF0033;" onmouseenter="colorchange(14)"></div>
+        <div class="grid-box" id="grid15" style="background-color: #0099FF;" onmouseenter="colorchange(15)"></div>
+        <div class="grid-box" id="grid16" style="background-color: #FFCC33;" onmouseenter="colorchange(16)"></div>
+        <div class="grid-box" id="grid17" style="background-color: #33FF00;" onmouseenter="colorchange(17)"></div>
+        <div class="grid-box" id="grid18" style="background-color: #666633;" onmouseenter="colorchange(18)"></div>
+        <div class="grid-box" id="grid19" style="background-color: #CC33CC;" onmouseenter="colorchange(19)"></div>
+        <div class="grid-box" id="grid20" style="background-color: #0033FF;" onmouseenter="colorchange(20)"></div>
+        <div class="grid-box" id="grid21" style="background-color: #FF0066;" onmouseenter="colorchange(21)"></div>
+        <div class="grid-box" id="grid22" style="background-color: #33CC66;" onmouseenter="colorchange(22)"></div>
+        <div class="grid-box" id="grid23" style="background-color: #6666FF;" onmouseenter="colorchange(23)"></div>
+        <div class="grid-box" id="grid24" style="background-color: #FF99FF;" onmouseenter="colorchange(24)"></div>
+        <div class="grid-box" id="grid25" style="background-color: #33FFFF;" onmouseenter="colorchange(25)"></div>
+        <div class="grid-box" id="grid26" style="background-color: #666600;" onmouseenter="colorchange(26)"></div>
+        <div class="grid-box" id="grid27" style="background-color: #CC0099;" onmouseenter="colorchange(27)"></div>
+      </div>
+    
+
+    <script src="./color selector.js"></script>
+</body>
+</html>
