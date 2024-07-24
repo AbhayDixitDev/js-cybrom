@@ -1,5 +1,5 @@
 
-let arrofobj=[];
+let arrofobj;
 function run(){
     
     let id=document.querySelector('#id').value;
@@ -24,8 +24,10 @@ function run(){
     }
     arrofobj.push(obj);
     window.localStorage.setItem('Information',JSON.stringify(arrofobj));
-
+console.log(arrofobj);
     return false;
     
    }
 }
+arrofobj;
+// j
