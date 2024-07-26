@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main-cart{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            border-radius: 10px;
+            border-radius: 50%;
+
+            
+        }
+        #box{
+            background-color: black;
+            width: 300px ;
+            height: 300px;
+            margin: 20px;
+            border-radius: 50px;          
+        }
+        #box h4{
+            position: relative;
+            bottom: -50px;
+            display: none;
+        }
+   
+        #box:hover h4{
+            position: relative;
+            bottom: 120px;
+            display: block;
+            margin-left: 20px;
+            color: white;
+            background-color: black;
+            opacity: 0.8;
+            transition: all 0.6s;
+            transition: ease-in-out .6s;
+        }
+  
+        #box:hover img{
+            scale: 1.1;
+            transition: all 0.6s;
+            transition: ease-in-out .6s;
+        }
+        #main-cart #box:hover{
+            overflow: hidden;
+            box-shadow: 0px 0px 5px 0px black;  
+            border-radius: 50px;
+            transition: all 0.6s;
+            transition: ease-in-out 1s;
+        }   
+    </style>
+
+</head>
+<body>
+    <div id="main-cart">
+       
+        
+    </div>
+    
+
+    <script src="./map box task.js"></script>
+</body>
+</html>
