@@ -1,0 +1,25 @@
+.image-container {
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#change-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#change-button:hover {
+    background-color: #3e8e41;
+}

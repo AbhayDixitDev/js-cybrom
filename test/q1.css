@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#generate-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generate-btn:hover {
+    background-color: #3e8e41;
+}
+
+#random-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
