@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //destructuring of array
+        let arr=[34,6,8,78,9,56,7,8,{}];
+
+        let [val1,val2,...remaining]=arr;
+        console.log(val1);
+        console.log(val2);
+        console.log(remaining);
+
+        let element1=arr[0];
+        let element2=arr[6];
+
+        console.log(element1,element2);
+
+
+        //destructuring of object
+        let obj={
+            "id":1,
+            "name":"Abhay",
+            "course":"Full Stack",
+            "mobile":"7017709865"
+        }
+        let obj1={
+            "id":2,
+            "name":"Abhay",
+            "course":"Full Stack",
+            "mobile":"7017709865"
+        }
+        let {name,...remain}=obj;
+        console.log(name);
+        console.log(remain);
+
+        //rest and spread operator
+
+        let array1=[1,2,3,4,5,6,7,8,9];
+        let array2=[1,2,3,4,5,6,7,8,9];
+        let combine_aray=array1.concat(array2); //2015 ES5
+        console.log(combine_aray);
+
+        let combine_aray_with_spread=[...array1,...array2]; //2016 ES6
+        console.log(combine_aray_with_spread);
+
+        let combine_object={...obj,...obj1};
+        console.log(combine_object);
+
+        function show(...rest){
+            console.log(rest)
+        }
+        show(2,4,5,67,89)
+
+
+    </script>
+</body>
+</html>
